@@ -1,77 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Lemon Cookie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi pagina</title>
 </head>
-
 <body>
-  <header>
-    <nav >
-      <img src="public/images/cookie-logo.gif" alt="logo" width="100px">
-      <p>Lemon Cookie</p>
-      <ul>
-        <li><a href="/home">Inicio</a></li>
-        <li><a href="/services">Servicios</a></li>
-        <li><a href="/contact">Contacto</a></li>
-      </ul>
+   <header>
+    
+    <nav>
+        <img src="imagenes/logo.png" alt="logo" id="imagen"width="100px">
+        <p>SONIDO GLOBAL</p>
+        <ul>
+            <li><a href="/artista">Inicio</a></li>
+            <li><a href="/genero">Servicio</a></li>
+            <li><a href="top">Contactos </a></li>
+        </ul>
     </nav>
-  </header>
-  <nav class="menu">
+   </header> 
+   <nav class="categorias">
     <ul>
-      <li><a href="/detalle/artesanales">Artesanales</a></li>
-      <li><a href="/detalle/red-velvet">Red Velvet</a></li>
-      <li><a href="/detalle/chocolatosas">Veganas</a></li>
+      <li><a href="/artista">Michael Jakson</a></li>
+      <li><a href="/Generos">Katy Perry</a></li>
+      <li><a href="/top">Lady Gaga</a></li>
     </ul>
   </nav>
-    <section class="hero">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/public/images/cookie-mobile.webp" />
-        <source media="(min-width: 600px)" srcset="/public/images/cookie-desktop.webp" />
-        <img src="/public/images/cookie-mobile.webp" alt="cookie" />
-      </picture>
-      <div class="hero-content">
-        <h1>
-          Cookie del dia
-        </h1>
-        <h3>
-          Mint cookie
-        </h3>
-        <h5>
-          Disfruta la galleta
-        </h5>
-      </div>
-    </section>
-    <section class="contenido">
-      <video src="/public/images/cookie-video.mp4" width="500" autoplay muted>
-        Tu navegador no soporta la etiqueta
-      </video>
-      <p>
-        "Imagina una galleta tan especial como un abrazo cálido de mamá: de suave masa de vainilla con esencia de
-        lavanda, horneada a la perfección hasta alcanzar un dorado suave"
-      </p>
-    </section>
-    <section class="articulo">
-      <img src="public/images/cookie-article.webp" alt="Una gallleta" />
-      <img src="public/images/cookie-article.webp" alt="Una gallleta" />
-      <img src="public/images/cookie-article.webp" alt="Una gallleta" />
-      <img src="public/images/cookie-article.webp" alt="Una gallleta" />
-    </section>
-  <footer>
+  <section  class="artista">
+    <img src="imagenes/jackson.avif" alt="michael" id="iamgenM" >
+    <p>MICHAEL JACKSON</p>
+  </section>
+  <section class="contenido">
+    <video src="imagenes/video.mp4" width="500" autoplay muted >
+      Tu navegador no soporta la etiqueta
+    </video>
     <p>
-      Lemon cookie &#169
+      "Michael Jackson, conocido como el "Rey del Pop", fue una de las figuras más influyentes y emblemáticas de la música y el entretenimiento del siglo XX. Nacido el 29 de agosto de 1958 en Gary, Indiana, Jackson comenzó su carrera musical a temprana edad como el cantante principal de The Jackson 5, un grupo familiar formado con sus hermanos. Su talento excepcional y su carisma rápidamente lo distinguieron como una estrella en ascenso."
     </p>
-
-    <nav class="footer-nav-redes-sociales">
-      <ul>
-        <li><a href="/facebook"><img src="/public/images/facebook.svg" width="24px"/></a></li>
-        <li><a href="/instagram"><img src="/public/images/instagram.svg" width="24px"/></a></li>
-        <li><a href="/tiktok"><img src="/public/images/tiktok.svg" width="24px"/></a></li>
-      </ul>
-    </nav>
-  </footer>
+  </section>
+  <section class="album">
+    <img src="imagenes/michael.jpg" alt="Una gallleta" />
+    <img src="imagenes/michael3.jpg" alt="Una gallleta" />
+    <img src="imagenes/michael4.jpg" alt="Una gallleta" />
+    <img src="imagenes/Michael2.webp" alt="Una gallleta" />
+  </section>
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Sobre Nosotros</h4>
+            <p>Descubre la mejor música, noticias y entrevistas con tus artistas favoritos. Estamos aquí para mantenerte al día con las últimas tendencias musicales .</p>
+        </div>
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <p>Email: saya.cristian@gmail.com</p>
+            <p>Teléfono: +123 456 7890</p>
+            <p>Dirección: ----------, 123, Ciudad, País</p>
+        </div>
+        
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Música GLOBAL. Todos los derechos reservados.</p>
+    </div>
+</footer>
 </body>
 </html>
